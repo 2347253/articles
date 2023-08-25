@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('bg.jpg');
+}
+.navbar-new{
+    background-color: gold;
+    text-align: center;
+    height: 35px;
+}
+
+.navbar-new>a{
+    color: black;
+    font-size: 20px;
+    margin: 55px;
+    text-decoration: none;
+}
+
+.navbar-new>a:hover{
+    background-color: black;
+    color: gold;
+}
+
+.logo{
+    position: absolute;
+    top:55px;
+    left:840px
+}
+
+.hero-container{
+    background-image: url('heroimage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.hero-text{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero-text>h2{
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 0 gold;
+}
+
+.flexbox-container{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid gold;
+    background-color: white;
+}
+.footer-info{
+font-style: italic;
+text-align: center;
+background-color: gold;
+padding: 15px;
+}
+
+.sidebar-container{
+    float: left;
+    width: 10%;
+    display: inline-flex;
+    float: left;
+    color: wheat;
+    flex-direction: column;
+    
+}
+.sidebar-container>h4{
+    padding-left: 15px;
+}
+
+.sidebar-container>a{
+    text-decoration: none;
+    color: black;
+
+}
+.item{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid gold;
+}
+
+.new-form{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+
+.mag{
+    height: 100px;
+    width:100px;
+}
+
+.nform{
+    border: 2px solid gold;
+}
